@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    background-size: cover;
+    justify-content: center;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-position: top;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+main {
+    overflow: hidden;
+    width: 350px;
+    border-radius: 16px;
+    background-color: white;
+    color: hsl(224, 23%, 55%);
+}
+
+#m-img {
+    border-radius: 16px 16px 0 0;
+    width: 100%;
+}
+
+h2 {
+    color: hsl(223, 47%, 23%);
+}
+
+
+.texts h2 {
+    padding-top: 2.2rem;
+    font-weight: 900;
+}
+
+.texts p {
+    padding-top: 1rem;
+}
+
+.texts {
+    text-align: center;
+}
+
+.plan {
+    font-size: 14px;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.plan-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plan-price h2 {
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.plan-img img {
+    padding: 1rem;
+    width: 75px;
+}
+
+.plan a {
+    font-weight: 700;
+    padding: 1.2rem;
+    color: hsl(245, 75%, 52%);
+}
+
+.payment-button {
+    font-size: 14px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    padding: .8rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 0 2rem;
+}
+
+.cancel-button {
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    padding: 2.2rem 0;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
